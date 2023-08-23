@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class _2104373_2b {
     public static void main(String[] args) {
-        int X = 100; // Change X to the desired value
+        Scanner in = new Scanner(System.in);
+        int X = in.nextInt();
 
         int maxShekelsFlicked = calculateMaxShekelsFlicked(X);
         System.out.println("Maximum shekels flicked: " + maxShekelsFlicked);
